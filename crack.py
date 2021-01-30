@@ -1,4 +1,11 @@
 #Encrypt By Rizky | https://github.com/hekelpro
+# Udah Tinggal Pake Aja Gan:v
+import os,sys,json
+try:
+	import requests as reek
+	req=reek.Session()
+except ModuleNotFoundError:os.system("python -m pip install requests") ; os.system(f"python {sys.argv[0]}")
+__import__("os").system("clear")
 os.system('termux-open https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q')
 import base64
 import marshal
